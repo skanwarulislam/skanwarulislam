@@ -92,7 +92,7 @@ disqusShortname = "yourdiscussshortname"
         url = "posts/"
 
         [[languages.en.menu.main]]
-        name = "interest"
+        name = "Interest"
         weight = 3
         url = "projects/"
 
