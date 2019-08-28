@@ -1,0 +1,23 @@
+<footer class="footer">
+  <section class="container">
+    {{ with .Site.Params.footercontent | safeHTML }}
+      <p>{{.}}</p>
+    {{ end }}
+    {{ if not .Site.Params.hideCopyright }} © {{ now.Format "2006" }}{{ end }}
+    {{ if not .Site.Params.hideCredits }}
+      {{ if not .Site.Params.hideCopyright }} · {{ end }}
+      {{ i18n "powered_by" }}
+      <a rel="cc_by"
+         href="http://creativecommons.org/licenses/by/4.0/">
+        <img alt="Creative Commons Image"
+             style="border-width:0"
+             title="This work is relased under the Creative Commons Attribution 4.0 International License"
+             src="https://i.creativecommons.org/l/by/4.0/80x15.png"
+        />
+      </a>
+      <a href="mailto:anwar@skanwarulislam.com">
+        anwar@skanwarulislam.com
+      </a>
+    {{ end }}
+  </section>
+</footer>
