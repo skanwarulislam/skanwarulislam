@@ -7,4 +7,4 @@ draft = false
 +++
 
 I have been trying to create my own website for sometime now. But never been able to finish it. But this time I was determind and started this initiative.
-I will try to post thing, which I thing might be useful to others which is the second reason. The first reason is for the sake of myself so that I can document which can reuse in future.
+I will try to post thing, which I thnk might be useful to others. Another reason is to document useful things here, which are easy to forget so that I can just look into it whenever I need it.
