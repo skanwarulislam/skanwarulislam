@@ -76,6 +76,10 @@ disqusShortname = "yourdiscussshortname"
     weight = 5
     url = "https://www.facebook.com/sk.mohd.anwarul.islam"
 
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
 
 [languages]
     [languages.en]
